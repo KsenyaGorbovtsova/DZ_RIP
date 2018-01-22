@@ -24,7 +24,7 @@ SECRET_KEY = 'hsxr5tt7vaikid^0efesq6qr1b^+f8n51%(ii6cxzz8ht8@ean'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ksenya.mysql.pythonanywhere-services.com']
 
 # Application definition
 
@@ -75,9 +75,9 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'musicbands_db',
-        'USER': 'dbuser',
-        'PASSWORD': '0807Ksenya',
+        'NAME': 'ksenya$music_db',
+        'USER': 'ksenya',
+        'PASSWORD': 'Ksenya08071997',
         'HOST': 'localhost',
         'PORT': 3306,
         'OPTIONS': {'charset': 'utf8'},
