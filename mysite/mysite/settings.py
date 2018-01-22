@@ -78,7 +78,7 @@ DATABASES = {
         'NAME': 'ksenya$music_db',
         'USER': 'ksenya',
         'PASSWORD': 'Ksenya08071997',
-        'HOST': 'localhost',
+        'HOST': 'ksenya.mysql.pythonanywhere-services.com',
         'PORT': 3306,
         'OPTIONS': {'charset': 'utf8'},
         'TEST_CHARSET': 'utf8',
